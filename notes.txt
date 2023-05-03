@@ -1,0 +1,17 @@
+CHARACTER TYPES:
+There are several character types in Kotlin.
+
+Numbers:
+For integer numbers with no fractional part, the types are:
+1. byte - smallest 
+2. short 
+3. int
+4. long - largest
+
+For non-integer numbers(floats) there are two data types:
+1. Float
+2. Double
+
+a double is more precise that a float <<i think these are derived from 
+computer representation of fractions, i.e. floating point representation
+
