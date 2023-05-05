@@ -1,6 +1,6 @@
 import java.time.LocalTime
 
-fun main() {
+fun time() {
     var now = LocalTime.now()
 
     if (now.hour >= 0 && now.hour < 12) {
@@ -8,6 +8,6 @@ fun main() {
     } else  if (now.hour >= 12 && now.hour <= 17){
         println("Good afternoon")
     } else {
-        println("Good ebening")
+        println("Good evening")
     }
 }
